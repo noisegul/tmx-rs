@@ -1,0 +1,13 @@
+[package]
+name = "tmx-rs"
+version = "0.1.0"
+description = "A library for handling tmx tile maps."
+authors = [""]
+
+[lib]
+name = "tmx"
+path = "src/lib.rs"
+
+
+[dependencies]
+quick-xml = "0.13"
